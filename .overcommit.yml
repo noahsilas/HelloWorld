@@ -22,6 +22,11 @@ PreCommit:
   JsonSyntax:
     enabled: true
 
+  EsLint:
+    enabled: true
+    required_executable: 'npm'
+    command: ['npm', 'run', 'lint', '--', '-f', 'compact']
+
 
 PostCheckout:
   IndexTags:

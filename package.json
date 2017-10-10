@@ -4,6 +4,7 @@
   "description": "Hello World",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/noahsilas/HelloWorld/issues"
   },
-  "homepage": "https://github.com/noahsilas/HelloWorld#readme"
+  "homepage": "https://github.com/noahsilas/HelloWorld#readme",
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0"
+  }
 }
