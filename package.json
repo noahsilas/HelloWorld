@@ -18,6 +18,9 @@
     "url": "https://github.com/noahsilas/HelloWorld/issues"
   },
   "homepage": "https://github.com/noahsilas/HelloWorld#readme",
+  "engines": {
+    "node": "8.x"
+  },
   "devDependencies": {
     "eslint": "^4.8.0",
     "eslint-config-airbnb-base": "^12.0.2",
